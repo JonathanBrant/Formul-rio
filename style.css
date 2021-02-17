@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: black;
+  
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color:black;
+    margin-left: 12%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-image: url("lol.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+   
+    margin-top: 2%;
+    justify-content: center;
+    background: url(lol.jpg) rgba(255, 255, 255, 0.2);
+    background-blend-mode: overlay;
+}
+
+div {
+    margin-left: 40%;
+}
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+    width: 100%;
+}
+
+.campo input~g {
+    padding: 0.2em;
+    border: 1px solid #c2c2c2;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #c2c2c2;
+}
+.campo1 {
+    margin-bottom: 1em;
+}
+
+.campo1 label {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo1 {
+    float:  left;
+    margin-right: 1em;
+    width: 100%;
+}
+
+.campo1 input~g {
+    padding: 0.2em;
+    border: 1px solid #c2c2c2;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo1 input {
+    width: 26em;
+}
+
+.campo1 select option {
+    padding-right: 1em;
+}
+
+.campo1 input:focus, .campo select:focus, .campo textarea:focus {
+    background: #c2c2c2;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: white;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    left: 50%;
+
+}
+
+.botao:hover {
+    background: #c2c2c2;
+    color: black;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
